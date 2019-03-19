@@ -15,6 +15,7 @@
 		123B1BC71C3B896E0012C712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123B1BC51C3B896E0012C712 /* LaunchScreen.storyboard */; };
 		123B1BD21C3B896E0012C712 /* Video_format_ConversionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123B1BD11C3B896E0012C712 /* Video_format_ConversionTests.m */; };
 		123B1BDD1C3B896E0012C712 /* Video_format_ConversionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123B1BDC1C3B896E0012C712 /* Video_format_ConversionUITests.m */; };
+		8421BFFD2240D5720058BE73 /* SampleVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8421BFFC2240D5720058BE73 /* SampleVideo.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		123B1BD81C3B896E0012C712 /* Video format ConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video format ConversionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		123B1BDC1C3B896E0012C712 /* Video_format_ConversionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video_format_ConversionUITests.m; sourceTree = "<group>"; };
 		123B1BDE1C3B896E0012C712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8421BFFC2240D5720058BE73 /* SampleVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = SampleVideo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		123B1BB61C3B896E0012C712 /* Video format Conversion */ = {
 			isa = PBXGroup;
 			children = (
+				8421BFFC2240D5720058BE73 /* SampleVideo.mov */,
 				123B1BBA1C3B896E0012C712 /* AppDelegate.h */,
 				123B1BBB1C3B896E0012C712 /* AppDelegate.m */,
 				123B1BBD1C3B896E0012C712 /* ViewController.h */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8421BFFD2240D5720058BE73 /* SampleVideo.mov in Resources */,
 				123B1BC71C3B896E0012C712 /* LaunchScreen.storyboard in Resources */,
 				123B1BC41C3B896E0012C712 /* Assets.xcassets in Resources */,
 				123B1BC21C3B896E0012C712 /* Main.storyboard in Resources */,
@@ -498,6 +502,7 @@
 				123B1BE31C3B896E0012C712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		123B1BE41C3B896E0012C712 /* Build configuration list for PBXNativeTarget "Video format ConversionTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				123B1BE61C3B896E0012C712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		123B1BE71C3B896E0012C712 /* Build configuration list for PBXNativeTarget "Video format ConversionUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				123B1BE91C3B896E0012C712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
